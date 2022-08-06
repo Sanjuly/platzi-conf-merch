@@ -1,0 +1,30 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+}
+.Header-checkout {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+  width: 100px;
+  /*margin: 0 0 0 0.5em;*/
+}
+.Header-alert {
+  width: 15px;
+  height: 20px;
+  padding: 5px;
+  border: 2px solid #509CDA;
+  color: #33b13a;
+  font-size: 14px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+.Header-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+.Header a {
+  text-decoration: none;
+  color: #509CDA;
+}
